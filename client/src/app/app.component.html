@@ -1,0 +1,16 @@
+<h2>Title</h2>
+<div>
+  <h3>Modal Test</h3>
+  <button (click)="openModal('one')">Modal One</button>
+  <button (click)="openModal('two')">Modal Two</button>
+</div>
+
+<app-modal id="one">
+  <h3>Modal One</h3>
+  <button (click)="closeModal('one')">Close</button>
+</app-modal>
+
+<app-modal id="two">
+  <h3>Modal Two</h3>
+  <button (click)="closeModal('two')">Close</button>
+</app-modal>
